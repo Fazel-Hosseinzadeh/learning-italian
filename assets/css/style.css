@@ -89,32 +89,33 @@ body{
 /* hero image  */
 
 #hero-image-section{
-    height: 80vh;
+    height: 600px;
     width: 100%;
+    display: block;
     overflow: hidden;
-}
+} 
+
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
-    height: 80vh;
+    height: 600px;
     width: 100%;
-    clear: both;
+    
+    
 
 /* Apply the animation to an element with a background image */
-  background-image: url('../images/hero-image.jpg');
-  background-repeat: repeat-x;
-  animation: move-background 10s linear infinite;
+  animation-name: zoomin;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
     
     
 /* hero image animation definition */
-@keyframes move-background {
+@keyframes zoomin {
     from {
-      background-position: 100% 0;
-      transform: scale(1);
+     transform: scale(1);
     }
     to {
-      background-position: 0 0;
-      transform: scale(1.2);
+        transform: scale(1.2);
     }
   }
   
