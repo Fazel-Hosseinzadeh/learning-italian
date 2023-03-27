@@ -15,7 +15,7 @@ body{
     float: left;
     font-size: large;
     text-decoration: none;
-    margin:1.2rem 0  0 1.2rem;
+   
     
 }
 #logo-learn{
@@ -86,6 +86,13 @@ body{
     line-height: 30px;
 }
     
+/* hero image  */
+#hero-iamge-container{
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    height: 80vh;
+    width: 100%;
+    clear: both;
+}
     
     
 
