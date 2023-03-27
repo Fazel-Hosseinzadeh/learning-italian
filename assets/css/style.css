@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patua+One&family=Poppins&family=Satisfy&display=swap');
 
+/* reseting to zero margins paddings and borders from all the elements*/
+   *{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
     font-family: Popinns, sans-serif;
     background-color: #444244;
     color: #e1d5d5;
-    /* removing margins paddings and borders from all the elements in the body */
-    margin: 0;
-    padding: 0;
-    border: none;
 }
 
 /* logo styling */
@@ -15,7 +18,6 @@ body{
     float: left;
     font-size: large;
     text-decoration: none;
-   
     
 }
 #logo-learn{
@@ -34,7 +36,7 @@ body{
 
 #logo-italian{
     font-family: 'Satisfy', sans-serif;
-    color: #c5dd4c;;
+    color: whitesmoke;
     font-style: italic;
     background-color: hsla(0, 100%, 50%, 0.8);
     letter-spacing: 1px;
@@ -89,19 +91,18 @@ body{
 /* hero image  */
 
 #hero-image-section{
-    height: 600px;
-    width: 100%;
-    display: block;
+    height: 80vh;
+    width: 100vw;
+    clear: both;
     overflow: hidden;
 } 
 
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
-    height: 600px;
-    width: 100%;
+    height: 80vh;
+    width: 100vw;
     
     
-
 /* Apply the animation to an element with a background image */
   animation-name: zoomin;
   animation-duration: 5s;
@@ -112,12 +113,16 @@ body{
 /* hero image animation definition */
 @keyframes zoomin {
     from {
-     transform: scale(1);
+    transform: scale(1);
     }
     to {
         transform: scale(1.2);
     }
-  }
+}
+
+
+  /* cover text styling */
+
   
 
 
