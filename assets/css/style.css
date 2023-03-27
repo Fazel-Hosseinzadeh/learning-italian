@@ -20,6 +20,8 @@ body{
     text-decoration: none;
     
 }
+/* The Logo formed by three span wit ids "Lear" "space" "Italian" */
+
 #logo-learn{
     font-family: 'Patua One', sans-serif;
     color: whitesmoke;
@@ -45,7 +47,6 @@ body{
 /* menu styling */
 #menu{
     float: right;
-    margin-right:50px;
     letter-spacing: 2px;
     font-size: 1.2rem;
 }
@@ -86,21 +87,23 @@ body{
 
 #menu, #logo{
     line-height: 30px;
+    margin: 50px 20px;
 }
     
 /* hero image  */
 
 #hero-image-section{
-    height: 80vh;
-    width: 100vw;
-    clear: both;
+    height: 600px;
+    width: 100%;
+    display: block;
     overflow: hidden;
+    position: relative;
 } 
 
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
-    height: 80vh;
-    width: 100vw;
+    height: 600px;
+    width: 100%;
     
     
 /* Apply the animation to an element with a background image */
@@ -120,11 +123,22 @@ body{
     }
 }
 
-
   /* cover text styling */
+  #cover-text, #cover-text h2{
+    color: #7ad27d
+  }
+  #cover-text{
+    width: auto;
+    height: auto;
+    letter-spacing: 2px;
+    font-family: Poppins;
+    font-size: 150%;
+    background-color: hsla(214, 27%, 25%, 0.7);
+    padding: 15px;px 20px;
 
-  
-
-
+    position: absolute;
+    top: 20px;
+    left: 35%;
+  }
 
 
