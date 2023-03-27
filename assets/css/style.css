@@ -15,17 +15,21 @@ body{
     float: left;
     font-size: large;
     text-decoration: none;
+    margin:1.2rem 0  0 1.2rem;
+    
 }
 #logo-learn{
     font-family: 'Patua One', sans-serif;
     color: whitesmoke;
     letter-spacing: 3px;
     background-color: #1b7e1b;
+    padding-bottom: 0.2em;
 }
 
 #logo-space{
     letter-spacing: 3px;
     background-color: whitesmoke;
+    padding-bottom: 0.2em;
 }
 
 #logo-italian{
@@ -36,6 +40,10 @@ body{
     letter-spacing: 1px;
 }
 
+/* menu styling */
+#menu{
+    float: right;
+}
 
 
 
