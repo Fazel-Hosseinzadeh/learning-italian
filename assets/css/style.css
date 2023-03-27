@@ -87,14 +87,38 @@ body{
 }
     
 /* hero image  */
+
+#hero-image-section{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
     height: 80vh;
     width: 100%;
     clear: both;
+
+/* Apply the animation to an element with a background image */
+  background-image: url('../images/hero-image.jpg');
+  background-repeat: repeat-x;
+  animation: move-background 10s linear infinite;
 }
     
     
+/* hero image animation definition */
+@keyframes move-background {
+    from {
+      background-position: 100% 0;
+      transform: scale(1);
+    }
+    to {
+      background-position: 0 0;
+      transform: scale(1.2);
+    }
+  }
+  
+
 
 
 
