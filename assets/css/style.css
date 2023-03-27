@@ -9,7 +9,7 @@
 
 body{
     font-family: Popinns, sans-serif;
-    background-color: #444244;
+    background-color: #251d17;
     color: #e1d5d5;
 }
 
@@ -60,9 +60,10 @@ body{
 #register{
     background-color: #b34a12;
     color: #9ad569;
-    padding: 5px 15px;
+    padding: 0px 15px ;
     border:1px solid white;
     border-radius: 10px;
+    
     
 }
 
@@ -119,7 +120,7 @@ body{
     transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
@@ -133,7 +134,7 @@ body{
     letter-spacing: 2px;
     font-family: Poppins;
     font-size: 150%;
-    background-color: hsla(214, 27%, 25%, 0.7);
+    background-color: hsla(210, 27%, 19%, 0.8);
     padding: 15px;px 20px;
 
     position: absolute;
