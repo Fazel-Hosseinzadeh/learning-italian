@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patua+One&family=Poppins&family=Satisfy&display=swap');
+
+body{
+    font-family: Popinns, sans-serif;
+    /* removing margins paddings and borders from all the elements in body */
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
