@@ -177,7 +177,14 @@ hr{
 
 /* Footer styling */
 footer{
-    
     height: auto;
+}
+
+.social-media{
+    text-align: center;
+}
+
+#social-media li{
+    display: inline;
 }
 
