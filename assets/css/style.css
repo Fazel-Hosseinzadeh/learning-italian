@@ -68,6 +68,8 @@ header {
     padding: 0px 15px ;
     border:1px solid white;
     border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
     
     
 }
@@ -241,5 +243,32 @@ footer{
 }
 
 /* Form styling */
+#registration-section{
+    margin:5rem 20rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: hsla(247, 82%, 39%, 0.7);
+}
+
+#registration-form label{
+    color:#7ad27d;
+    display: block;
+    padding-left: 1rem;
+}
+.input{
+    background-color: hsla(143, 50%, 87%, 0.7);
+    width: 80%;
+    margin-left: 1rem;
+}
+
+#registration-form #radio-wrapper label{
+    margin-left: 1rem;
+    display: inline;
+}
+
+form .register{
+    width: 50%;
+    
+}
 
 

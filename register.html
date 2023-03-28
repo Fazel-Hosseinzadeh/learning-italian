@@ -28,15 +28,16 @@
         </div>
     </header>
     <section id="registration-section">
+    <fieldset>
+        <legend><h2>Let's Sign you up!</h2></legend> 
         <div id="registration-form">
             <form action="https://formdump.codeinstitute.net" method="POST">
-                <h2>Let's Sign you up!</h2>
 
             <label for="fname">First Name</label>
             <input id="fname" class="input" name="first_name" type="text" required>
             
             <label for="lname">Last Name</label>
-            <input id="lname" class="nput" name="last_name" type="text" required>
+            <input id="lname" class="input" name="last_name" type="text" required>
             
             <label for="email">Email Address</label>
             <input id="email" class="input" name="email_address" type="email"  required>
@@ -52,19 +53,22 @@
                 <option value="c2">Italian course C2 Level</option>
             </select>
                 
-                <label for="course">When you can start:</label>
-                <input id="start-date" class="text-input" name="start-date" type="date" required>
+                <label for="start-date">When you can start:</label>
+                <input id="start-date" class="input" name="start-date" type="date" required>
 
                 <label>Please choose the course type:</label>
+                <div id="radio-wrapper">
                 <label for="group">Group</label>
                 <input type="radio" id="group" name="course-type" value="group" required>
                 <label for="private">Private</label>
                 <input type="radio" id="private" name="course-type" value="private" required>
+                </div>
 
                 <input class="register" type="submit" value="Let's Run!">
 
                 </form>
             </div>
+    </fieldset>
 
         </section>
     <footer>
