@@ -276,10 +276,13 @@ footer{
 }
 #registration-section{
     margin:1rem auto;
-    width: 20rem;
+    width: 25rem;
     height: auto;
     background-color: hsla(163, 61%, 44%, 0.847);
     color:#2d4165;
+
+    border: 1px solid black;
+    border-radius: 2rem;
 }
 
 #registration-form{
