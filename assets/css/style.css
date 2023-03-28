@@ -243,15 +243,30 @@ footer{
 }
 
 /* Form styling */
+#register-content-container{
+    clear: left;
+    background: url('../images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 #registration-section{
-    margin:5rem 20rem;
+    margin:1rem auto;
     width: 20rem;
-    height: 20rem;
-    background-color: hsla(247, 82%, 39%, 0.7);
+    height: auto;
+    background-color: hsla(246, 16%, 76%, 0.7);
 }
 
-#registration-form label{
-    color:#7ad27d;
+#registration-form{
+    padding: 1rem 2rem;
+    margin: auto 0;
+}
+fieldset legend{
+margin-top: 2rem;
+}
+
+#registration-form label, #registration-section legend{
+    color:#042c05;
     display: block;
     padding-left: 1rem;
 }
@@ -259,6 +274,7 @@ footer{
     background-color: hsla(143, 50%, 87%, 0.7);
     width: 80%;
     margin-left: 1rem;
+    margin-bottom: 2rem;
 }
 
 #registration-form #radio-wrapper label{
@@ -266,9 +282,13 @@ footer{
     display: inline;
 }
 
-form .register{
-    width: 50%;
-    
+input[type=submit]{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 0 1rem;
 }
+
+
+
 
 
