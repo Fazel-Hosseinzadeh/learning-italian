@@ -160,30 +160,52 @@ header {
   }
 
 /* Course overview section styling */
+.course-overview{
+    margin-top: 2rem;
+}
 #why-right, #why-left, #why-center{
     border: 1px solid whitesmoke;
     line-height: 2.5rem;
     width: 33%;
     box-sizing: border-box;
-    padding: 10px 20px;
+    padding: 3rem 2rem;
 }
 
 #why-left{
     float: left;
     background-color: #096c00;
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
 }
 #why-right{
     float: right;
     background-color: #a13826;
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
 }
 #why-center{
     margin:10px auto;
     background-color: #d8e5e7;
     color: #3a3a3a;
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
 }
 #why-center h2{
     background-color: #535f53;
     text-align: center;
+}
+#why-left:hover{
+    float: left;
+    background-color: #3d8536;
+}
+#why-right:hover{
+    float: right;
+    background-color: #a06359;
+}
+#why-center:hover{
+    margin:10px auto;
+    background-color: #4b9f9b;
+    color: #3a3a3a;
 }
 
 
