@@ -275,6 +275,7 @@ margin-top: 2rem;
     width: 80%;
     margin-left: 1rem;
     margin-bottom: 2rem;
+    line-height: 175%;
 }
 
 #registration-form #radio-wrapper label{
@@ -284,8 +285,9 @@ margin-top: 2rem;
 
 input[type=submit]{
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 0 1rem;
+    line-height: 175%;
 }
 
 
