@@ -144,13 +144,9 @@ body{
   }
 
 /* Course overview styling */
-#course-overview{
-    
-}
-
 #why-right, #why-left, #why-center{
     border: 1px solid whitesmoke;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     width: 33%;
     box-sizing: border-box;
     padding: 10px 20px;
@@ -163,8 +159,19 @@ body{
     float: right;
 }
 #why-center{
+    margin:10px auto;
+    background-color: #2e2b37;
+}
+#why-center h2{
     background-color: #535f53;
     text-align: center;
-    margin:10px auto;
+}
+
+.why{
+    color:#9ad569;
+    font-size: 120%;
+}
+hr{
+    color: inherit;
 }
 
