@@ -63,8 +63,8 @@ header {
 }
 
 .register{
-    background-color: #b34a12;
-    color: #9ad569;
+    background-color: #cb3939;
+    color: #bfc4c8;
     padding: 0px 15px ;
     border:1px solid white;
     border-radius: 10px;
@@ -170,13 +170,16 @@ header {
 
 #why-left{
     float: left;
+    background-color: #096c00;
+    color: #111211;
 }
 #why-right{
     float: right;
+    background-color: #aa2913;
 }
 #why-center{
     margin:10px auto;
-    background-color: #2e2b37;
+    background-color: #d8e5e7;
 }
 #why-center h2{
     background-color: #535f53;
@@ -290,6 +293,14 @@ input[type=submit]{
     line-height: 175%;
 }
 
+.input:hover{
+    color:hsla(143, 50%, 87%, 0.7);
+    background-color: rgb(154, 60, 60);
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    line-height: 175%;
+}
 
 
 
