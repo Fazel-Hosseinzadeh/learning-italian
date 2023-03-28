@@ -204,7 +204,7 @@ header {
 }
 #why-center:hover{
     margin:10px auto;
-    background-color: #4b9f9b;
+    background-color: #6ed5d0;
     color: #3a3a3a;
 }
 
@@ -278,11 +278,11 @@ footer{
     margin:1rem auto;
     width: 25rem;
     height: auto;
-    background-color: hsla(163, 61%, 44%, 0.847);
+    background-color: hsla(163, 61%, 44%, 0.9);
     color:#2d4165;
 
     border: 1px solid black;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
 }
 
 #registration-form{
@@ -319,9 +319,8 @@ margin-top: 2rem;
     display: inline;
 }
 
-input[type=submit]{
-    margin-top: 1rem;
-    margin-left: 1rem;
+#registration-form input[type=submit]{
+    margin: 1rem 3rem;
     padding: 0 1rem;
     line-height: 175%;
 }
