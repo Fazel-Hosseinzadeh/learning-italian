@@ -159,7 +159,7 @@ header {
     display:inline;
   }
 
-/* Course overview styling */
+/* Course overview section styling */
 #why-right, #why-left, #why-center{
     border: 1px solid whitesmoke;
     line-height: 2.5rem;
@@ -171,15 +171,15 @@ header {
 #why-left{
     float: left;
     background-color: #096c00;
-    color: #111211;
 }
 #why-right{
     float: right;
-    background-color: #aa2913;
+    background-color: #a13826;
 }
 #why-center{
     margin:10px auto;
     background-color: #d8e5e7;
+    color: #3a3a3a;
 }
 #why-center h2{
     background-color: #535f53;
@@ -187,7 +187,8 @@ header {
 }
 
 .why{
-    color:#9ad569;
+    background-color: hsla(176, 46%, 44%, 0.70);
+    color:#472e70;
     font-size: 120%;
 }
 
