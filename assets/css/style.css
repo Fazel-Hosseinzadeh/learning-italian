@@ -62,7 +62,7 @@ header {
     float: left;
 }
 
-#register{
+.register{
     background-color: #b34a12;
     color: #9ad569;
     padding: 0px 15px ;
@@ -81,7 +81,7 @@ header {
     text-decoration: underline;
 }
 
-#menu #register:hover{
+#menu .register:hover{
     text-decoration: wavy;
     color: #b34a12;
     background-color: #9ad569;
@@ -235,7 +235,7 @@ footer{
 
 .social-media i:hover{
     color: #7ad27d;
-    font-size: 250%;
+    font-size: 215%;
 }
 
 .contact tr :hover{
