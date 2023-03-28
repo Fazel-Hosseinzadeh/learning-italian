@@ -11,8 +11,15 @@ body{
     font-family: Popinns, sans-serif;
     background-color: #251d17;
     color: #e1d5d5;
+    min-height: 100vh;
 }
 
+header {
+    height: 20vh;
+    display: block;
+    border-bottom: 1px  solid whitesmoke;
+    border-radius: 20%;
+}
 /* logo styling */
 #logo{
     float: left;
@@ -181,7 +188,7 @@ hr{
 /* Footer styling */
 
 footer{
-    height: auto;
+    height: 20vh;
     border-top:1px solid whitesmoke;
     border-radius: 20%;
 }
