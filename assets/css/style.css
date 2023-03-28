@@ -184,7 +184,14 @@ footer{
     text-align: center;
 }
 
-#social-media li{
+.social-media li{
     display: inline;
+}
+.social-media i{
+    font-size: 200%;
+    padding: 1rem 1.2rem;
+    margin: 2rem;
+    color: whitesmoke;
+
 }
 
