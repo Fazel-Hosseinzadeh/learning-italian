@@ -214,6 +214,7 @@ footer{
 
 .social-media li{
     display: inline;
+    list-style-type: circle;
 }
 .social-media i{
     font-size: 200%;
