@@ -81,10 +81,10 @@ header {
     text-decoration: underline;
 }
 
-#menu .register:hover{
-    text-decoration: wavy;
+/* for wining "#menu li:hover" rule it is neccessary to re-define "#menu .register:hover" */
+#menu .register:hover, .register:hover{
     color: #b34a12;
-    background-color: #9ad569;
+    background-color: #7ad27d;
 }
 
 #menu .active{
@@ -185,9 +185,6 @@ header {
     color:#9ad569;
     font-size: 120%;
 }
-hr{
-    color: inherit;
-}
 
 /* Footer styling */
 
@@ -243,5 +240,6 @@ footer{
     font-size: larger;
 }
 
+/* Form styling */
 
 
