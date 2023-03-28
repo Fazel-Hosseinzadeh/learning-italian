@@ -190,9 +190,10 @@ header {
     border: 1px solid whitesmoke;
     border-radius: 2rem;
 }
-#why-center h2{
-    background-color: #535f53;
+#why-center h2, #why-left h2, #why-right h2{
+    margin-bottom: 1rem;
     text-align: center;
+    font-size: 200%;
 }
 #why-left:hover{
     float: left;
@@ -204,7 +205,7 @@ header {
 }
 #why-center:hover{
     margin:10px auto;
-    background-color: #6ed5d0;
+    background-color: hsl(61, 69%, 86%);
     color: #3a3a3a;
 }
 
