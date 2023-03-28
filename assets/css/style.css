@@ -210,3 +210,15 @@ footer{
     width: 30%;
 }
 
+.social-media i:hover{
+    color: #7ad27d;
+    font-size: 250%;
+}
+
+.contact tr :hover{
+    color: #7ad27d;
+    font-size: larger;
+}
+
+
+
