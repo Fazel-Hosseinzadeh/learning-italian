@@ -184,7 +184,14 @@ footer{
     height: auto;
 }
 
+.social-media, .contact{
+    box-sizing: border-box;
+    border:1px solid #9ad569;
+    padding: 1rem 2rem;
+}
 .social-media{
+    float: left;
+    width: 70%;
     text-align: center;
 }
 
@@ -198,5 +205,8 @@ footer{
     color: whitesmoke;
 }
 
-
+.contact{
+    float: right;
+    width: 30%;
+}
 
