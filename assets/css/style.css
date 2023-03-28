@@ -20,8 +20,7 @@ body{
     text-decoration: none;
     
 }
-/* The Logo formed by three span wit ids "Lear" "space" "Italian" */
-
+/* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
     font-family: 'Patua One', sans-serif;
     color: whitesmoke;
@@ -92,7 +91,6 @@ body{
 }
     
 /* hero image  */
-
 #hero-image-section{
     height: 500px;
     width: 100%;
@@ -119,7 +117,7 @@ body{
     transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }
 
@@ -145,4 +143,28 @@ body{
     color: #e1d5d5;
   }
 
+/* Course overview styling */
+#course-overview{
+    
+}
+
+#why-right, #why-left, #why-center{
+    border: 1px solid whitesmoke;
+    line-height: 1.5rem;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+#why-left{
+    float: left;
+}
+#why-right{
+    float: right;
+}
+#why-center{
+    background-color: #535f53;
+    text-align: center;
+    margin:10px auto;
+}
 
