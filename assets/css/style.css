@@ -143,6 +143,10 @@ body{
     color: #e1d5d5;
   }
 
+  #piched-fingers{
+    display:inline;
+  }
+
 /* Course overview styling */
 #why-right, #why-left, #why-center{
     border: 1px solid whitesmoke;
