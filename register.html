@@ -28,9 +28,45 @@
         </div>
     </header>
     <section id="registration-section">
-       
+        <div id="registration-form">
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Let's Sign you up!</h2>
 
-    </section>
+            <label for="fname">First Name</label>
+            <input id="fname" class="input" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" class="nput" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" class="input" name="email_address" type="email"  required>
+
+            <label for="course">Please choose the course:</label>
+            <select name="course-level" id="course" class="input" required>
+                <option value="" >Select the Level</option>
+                <option value="a1" >Italian course A1 Level</option>
+                <option value="a2">Italian course A2 Level</option>
+                <option value="b1">Italian course B1 Level</option>
+                <option value="b2">Italian course B2 Level</option>
+                <option value="c1">Italian course C1 Level</option>
+                <option value="c2">Italian course C2 Level</option>
+            </select>
+                
+                <label for="course">When you can start:</label>
+                <input id="start-date" class="text-input" name="start-date" type="date" required>
+
+                <label>Please choose the course type:</label>
+                <label for="group">Group</label>
+                <input type="radio" id="group" name="course-type" value="group" required>
+                <label for="private">Private</label>
+                <input type="radio" id="private" name="course-type" value="private" required>
+
+                <input class="register" type="submit" value="Let's Run!">
+
+                </form>
+            </div>
+
+        </section>
     <footer>
         <div>
             <table class="contact">
