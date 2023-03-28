@@ -188,11 +188,11 @@ footer{
     box-sizing: border-box;
     border:1px solid #9ad569;
     padding: 1rem 2rem;
+    text-align: center;
 }
 .social-media{
     float: left;
     width: 70%;
-    text-align: center;
 }
 
 .social-media li{
