@@ -94,7 +94,7 @@ body{
 /* hero image  */
 
 #hero-image-section{
-    height: 600px;
+    height: 500px;
     width: 100%;
     display: block;
     overflow: hidden;
@@ -103,9 +103,8 @@ body{
 
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
-    height: 600px;
+    height: 500px;
     width: 100%;
-    
     
 /* Apply the animation to an element with a background image */
   animation-name: zoomin;
@@ -120,7 +119,7 @@ body{
     transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -140,6 +139,10 @@ body{
     position: absolute;
     top: 20px;
     left: 35%;
+  }
+
+  #cover-text #bella{
+    color: #e1d5d5;
   }
 
 
