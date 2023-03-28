@@ -260,7 +260,8 @@ footer{
     margin:1rem auto;
     width: 20rem;
     height: auto;
-    background-color: hsla(164, 52%, 69%, 0.847);
+    background-color: hsla(163, 61%, 44%, 0.847);
+    color:#2d4165;
 }
 
 #registration-form{
@@ -273,11 +274,9 @@ margin-top: 2rem;
 #registration-section legend{
     padding-top: 1rem;
     padding-left: 3rem;
-    color:#042c05;
 }
 
 #registration-form label{
-    color:#042c05;
     display: block;
     padding-left: 1rem;
 }
@@ -287,7 +286,7 @@ margin-top: 2rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
     height: 1.5rem;
-    border:0.2rem solid #09464d;
+    border:0.1px solid #38349c;
     border-radius: 0.5rem;
 }
 #course-level option{
@@ -308,7 +307,7 @@ input[type=submit]{
 
 .input:hover, #radio-wrapper label:hover{
     color: #d03333;
-    border:0.2rem solid #b68144;
+    border:1px solid #c5d8da;
 }
 
 
