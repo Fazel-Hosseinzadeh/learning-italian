@@ -18,7 +18,6 @@ body{
     float: left;
     font-size: large;
     text-decoration: none;
-    
 }
 /* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
@@ -180,19 +179,22 @@ hr{
 }
 
 /* Footer styling */
+
 footer{
     height: auto;
+    border-top:1px solid whitesmoke;
+    border-radius: 20%;
 }
 
 .social-media, .contact{
-    box-sizing: border-box;
-    border:1px solid #9ad569;
+    box-sizing: border-box;;
     padding: 1rem 2rem;
-    text-align: center;
+    
 }
 .social-media{
     float: left;
     width: 70%;
+    text-align: center;
 }
 
 .social-media li{
@@ -208,6 +210,15 @@ footer{
 .contact{
     float: right;
     width: 30%;
+    
+}
+
+.contact caption{
+    font-size: larger;
+    font-weight: 900;
+    color: #7ad27d;
+    text-align:left;
+    padding-left: 2rem;
 }
 
 .social-media i:hover{
