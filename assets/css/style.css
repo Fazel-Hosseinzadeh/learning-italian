@@ -99,6 +99,9 @@ header {
 #menu li:hover,#logo :hover{
     color: #7ad27d;
 }
+#logo-space:hover{
+    background-color: #7ad27d;
+}
     
 /* hero image  */
 #hero-image-section{
