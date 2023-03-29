@@ -132,7 +132,14 @@ header {
 }
 
   /* cover text styling */
+  hr{
+    border-bottom: 2px solid whitesmoke ;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
   #cover-text, #cover-text h2{
+    text-align: center;
     color: #7ad27d
   }
   #cover-text{
@@ -149,9 +156,16 @@ header {
     left: 35%;
   }
 
-  #cover-text #bella{
-    color: #e1d5d5;
+  #cover-text .bella{
+    font-size: 200%;
+    color: #ccbeb7;
   }
+
+  #cover-text .bella span{
+    font-size: 150%;
+    color: #37cf0d;
+  }
+ 
 
   #piched-fingers{
     display:inline;
