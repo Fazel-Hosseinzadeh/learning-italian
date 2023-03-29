@@ -245,9 +245,11 @@ header {
 
 .info-box a{
     display: block;
+    width: 75%;
+    margin: 0 auto;
     text-decoration: none;
     text-align: center;
-    font-size: 200%;
+    font-size: 175%;
     line-height: 4rem;
 }
 
