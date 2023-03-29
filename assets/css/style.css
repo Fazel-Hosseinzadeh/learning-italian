@@ -229,13 +229,16 @@ header {
 }
 
 .info-box a{
+    display: block;
     text-decoration: none;
     text-align: center;
-    font-size: 300%;
-    
+    font-size: 200%;
+    line-height: 4rem;
 }
 
-
+#info-left a:hover{
+    color:  #7ad27d;
+}
 
 /* Footer styling */
 footer{
