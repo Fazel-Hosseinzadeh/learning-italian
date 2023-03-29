@@ -401,7 +401,7 @@ margin-top: 2rem;
     background-color: #1b371e;
     border-radius: 1rem;
     line-height: 4rem;
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 #courses-heading h2{
     text-align: center;
@@ -445,6 +445,7 @@ margin-top: 2rem;
 .course-box p{
     padding: 0.5rem 1rem;
     line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 .course-box:hover{
