@@ -70,8 +70,6 @@ header {
     border-radius: 10px;
     letter-spacing: 2px;
     font-size: 1.2rem;
-    
-    
 }
 
 #menu a{
@@ -162,6 +160,7 @@ header {
 /* Course overview section styling */
 #course-overview-wrapper, #info-wrapper{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
 }
 
@@ -192,7 +191,7 @@ header {
     color: #3a3a3a;
     border: 1px solid whitesmoke;
 }
-.why-box h2{
+.why-box h2, .info-box h2{
     margin-bottom: 1rem;
     text-align: center;
     font-size: 200%;
@@ -213,6 +212,10 @@ header {
 }
 
 /* course overview, info section styling */
+#info-wrapper{
+     background-color: whitesmoke; /*it will coveer the border */
+    color: #3a3a3a;
+}
 .info-box{
     width: 50%;
 }
@@ -224,6 +227,15 @@ header {
 #info-right{
     float: right;
 }
+
+.info-box a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+
 
 /* Footer styling */
 footer{
