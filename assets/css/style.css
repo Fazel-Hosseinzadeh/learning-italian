@@ -162,6 +162,7 @@ header {
   }
 
   #cover-text .bella span{
+    font-family: 'Satisfy', sans-serif;
     font-size: 150%;
     color: #37cf0d;
   }
