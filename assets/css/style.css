@@ -405,11 +405,10 @@ margin-top: 2rem;
 }
 #courses-heading h2{
     text-align: center;
+    font-size: 250%;
+    font-family: 'Satisfy', sans-serif;
 }
 
-#courses-heading h2{
-font-family: 'Satisfy', sans-serif;
-}
 
 #course-wrapper{
  width: 100%;
@@ -441,6 +440,11 @@ font-family: 'Satisfy', sans-serif;
     border: 0.2rem solid yellowgreen;
     border-radius: 1rem;
     border-style: inset;
+}
+
+.course-box p{
+    padding: 0.5rem 1rem;
+    line-height: 2rem;
 }
 
 .course-box:hover{
