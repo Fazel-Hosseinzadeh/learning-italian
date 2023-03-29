@@ -389,7 +389,43 @@ margin-top: 2rem;
     border:1px solid #c5d8da;
 }
 
+/* courses and prices styling */
+#courses-heading{
+    text-align: center;
+    margin: 2rem;
+    border: 1px solid whitesmoke;
+}
 
+#course-wrapper{
+ width: 100%;
+ overflow: hidden;
+ column-count: 3;
+ column-gap: 2rem;
+ margin: 2rem 0;
+}
+.course-box{
+    overflow: hidden;
+    margin:0 2rem 2rem 0 ; /* top margin causes unalignment */
+    padding: 1rem 2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    background-color: #541621;
 
+}
 
+.img-course-box{
+    width: 50%;
+    height: 100%;
+    border: 1px solid whitesmoke;
+}
+
+.course-box h2{
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+
+    border: 0.2rem solid yellowgreen;
+    border-radius: 1rem;
+    border-style: inset;
+}
 
