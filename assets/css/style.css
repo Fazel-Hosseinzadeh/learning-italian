@@ -390,10 +390,16 @@ margin-top: 2rem;
 }
 
 /* courses and prices styling */
+
 #courses-heading{
+    width: 100%;
     text-align: center;
     margin: 2rem;
     border: 1px solid whitesmoke;
+    background-color: #5d3b55;
+    border-radius: 0.5rem;
+    line-height: 4rem;
+    font-size: 150%;
 }
 
 #course-wrapper{
