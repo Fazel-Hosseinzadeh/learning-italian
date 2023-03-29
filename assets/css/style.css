@@ -416,7 +416,6 @@ margin-top: 2rem;
     border: 1px solid whitesmoke;
     border-radius: 1rem;
     background-color: #541621;
-
 }
 
 .img-course-box{
@@ -435,3 +434,16 @@ margin-top: 2rem;
     border-style: inset;
 }
 
+.course-box:hover{
+    border: 1px solid rgb(200, 54, 54);
+    border-radius: 1rem;
+    background-color: #bb7d89;
+    color:#3a3a3a;
+    border-radius: 3rem;
+    border-style: outset;
+}
+
+.course-box h2:hover{
+    border-radius: 3rem;
+    border-style: outset;
+}
