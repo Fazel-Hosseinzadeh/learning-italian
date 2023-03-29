@@ -427,8 +427,10 @@ margin-top: 2rem;
 }
 
 .img-course-box{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
     border: 1px solid whitesmoke;
 }
 
@@ -451,9 +453,9 @@ margin-top: 2rem;
 .course-box:hover{
     border: 1px solid rgb(200, 54, 54);
     border-radius: 1rem;
-    background-color: #bb7d89;
-    color:#3a3a3a;
-    border-radius: 3rem;
+    background-color: #681928;
+    color:#whitesmoke;
+    border-radius: 1.5rem;
     border-style: outset;
 }
 
