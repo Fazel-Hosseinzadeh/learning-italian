@@ -12,6 +12,9 @@ body{
     background-color: #251d17;
     color: #e1d5d5;
     min-height: 100vh;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
