@@ -160,42 +160,44 @@ header {
   }
 
 /* Course overview section styling */
-#course-overview-wrapper{
+#course-overview-wrapper, #info-wrapper{
     margin-top: 2rem;
     display: flex;
 }
-.why-box{
+
+.why-box, .info-box{
     border: 1px solid whitesmoke;
     line-height: 2.5rem;
-    width: 33%;
     box-sizing: border-box;
     padding: 3rem ;
+    border-radius: 2rem;
 }
 
+.why-box{
+    width: 33%;
+}
 #why-left{
     float: left;
     background-color: #096c00;
     border: 1px solid whitesmoke;
-    border-radius: 2rem;
 }
 #why-right{
     float: right;
     background-color: #a13826;
     border: 1px solid whitesmoke;
-    border-radius: 2rem;
 }
 #why-center{
     margin:0 auto;
     background-color: #d8e5e7;
     color: #3a3a3a;
     border: 1px solid whitesmoke;
-    border-radius: 2rem;
 }
 .why-box h2{
     margin-bottom: 1rem;
     text-align: center;
     font-size: 200%;
 }
+
 #why-left:hover{
     float: left;
     background-color: #3d8536;
@@ -210,9 +212,20 @@ header {
     color: #3a3a3a;
 }
 
+/* course overview, info section styling */
+.info-box{
+    width: 50%;
+}
+
+#info-left{
+    float: left;
+}
+
+#info-right{
+    float: right;
+}
 
 /* Footer styling */
-
 footer{
     display: block;
     height: 20vh;
