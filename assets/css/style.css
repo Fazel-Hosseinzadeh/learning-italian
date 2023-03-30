@@ -358,7 +358,7 @@ footer{
     overflow: hidden;
     margin:0 2rem 2rem 0 ; /* top margin causes unalignment */
     padding: 1rem 2rem;
-    background-color: #195a5c;
+    background-color: #323030;
     color: #cccccc;
     border-radius: 1.2rem;
 }
@@ -369,6 +369,7 @@ footer{
     object-fit: cover;
     margin-bottom: 1rem;
     border: 1px solid whitesmoke;
+    border-radius: 1rem;
 }
 
 .course-box h2{
@@ -386,7 +387,7 @@ footer{
 
 .course-box summary{
     font-size: 1.5rem;
-    border: 1px solid black;
+    border: 1px solid #eeee;
     border-radius: 0.7rem;
     padding: 0.5rem 1rem;
 }
