@@ -180,30 +180,26 @@ header {
 }
 
 .why-box, .info-box{
-    border: 1px solid whitesmoke;
     line-height: 2.5rem;
     box-sizing: border-box;
     padding: 3rem ;
     border-radius: 2rem;
+    width: 33%;
+    color: #3a3a3a;
 }
 
-.why-box{
-    width: 33%;
-}
 #why-left{
     float: left;
-    background-color: #096c00;
-    border: 1px solid whitesmoke;
+    background-color: #77dda3;
 }
 #why-right{
     float: right;
-    background-color: #a13826;
-    border: 1px solid whitesmoke;
+    background-color: #e47979;
+
 }
 #why-center{
     margin:0 auto;
     background-color: #dddddd;
-    color: #3a3a3a;
     border: 1px solid whitesmoke;
 }
 .why-box h2, .info-box h2{
@@ -214,12 +210,12 @@ header {
 
 #why-left:hover{
     float: left;
-    background-color: #2a5c25;
+    background-color: #aee0c3;
     transition: 1s;
 }
 #why-right:hover{
     float: right;
-    background-color: #712a1f;
+    background-color: #bd9d9d;
     transition: 1s;
 }
 #why-center:hover{
