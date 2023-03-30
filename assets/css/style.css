@@ -316,12 +316,9 @@ footer{
 #courses-heading{
     padding: 1rem 2rem;
     margin: 2rem;
-    border: 1px solid whitesmoke;
-    border-radius: 1rem;
     line-height: 4rem;
     font-size: 1.5rem;
 
-    
     /* animate */
     animation: pulse 2s forwards;
 }
@@ -390,6 +387,8 @@ footer{
     width: 100%;
     color: #3a3a3a;
     padding: 1rem ;
+    border-radius: 0;
+    margin: 1rem auto;
 }
 
 #go-register a{
