@@ -31,11 +31,10 @@ header {
 }
 /* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
-    font-family: 'Patua One', sans-serif;
+    font-family: 'Satisfy', sans-serif;
     color: whitesmoke;
     letter-spacing: 3px;
     background-color: #52b17b;
-    padding-bottom: 0.3rem;
 
     border: 1px solid #52b17b;
     border-radius: 0.5rem;
