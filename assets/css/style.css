@@ -126,17 +126,6 @@ header {
   animation-fill-mode: forwards;
 }
     
-    
-/* hero image animation definition */
-@keyframes zoomin {
-    from {
-    transform: scale(1);
-    }
-    to {
-        transform: scale(1.2);
-    }
-}
-
   /* cover text styling */
   hr{
     border-bottom: 2px solid whitesmoke ;
@@ -458,4 +447,14 @@ margin-top: 2rem;
 
 .course-box h2:hover{
     border-style: outset;
+}
+
+/* hero image animation definition */
+@keyframes zoomin {
+    from {
+    transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
