@@ -382,6 +382,7 @@ footer{
     padding: 0.5rem 1rem;
     line-height: 2rem;
     font-size: 1.2rem;
+
 }
 
 .course-box summary{
@@ -473,6 +474,7 @@ padding-left: 3rem;
 
 #registration-form select{
     height: 2rem;
+    width: 90%;
 }
 
 #course-level option{
