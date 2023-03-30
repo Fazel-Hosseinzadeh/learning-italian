@@ -403,7 +403,7 @@ footer{
 .course-box summary:hover{
     border:1px solid whitesmoke;
     border-radius: 0.7rem;
-    background-color: #939393;
+    background-color: #d8d5c4;
 
     /* animate */
     animation: pulse 0.5s forwards;
