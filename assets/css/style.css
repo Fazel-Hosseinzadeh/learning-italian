@@ -398,8 +398,8 @@ footer{
 }
 
 .course-box summary:hover{
-    
     background-color: #505962;
+    transition: 0.4s;
 }
 
 #go-register{
