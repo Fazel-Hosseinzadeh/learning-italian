@@ -397,7 +397,7 @@ footer{
     background-color: #939393;
 
     /* animate */
-    animation: pulse 1s forwards;
+    animation: pulse 0.5s forwards;
 }
 
 #go-register{
