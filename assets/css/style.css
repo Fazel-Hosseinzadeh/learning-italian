@@ -200,16 +200,16 @@ header {
 
 #why-left{
     float: left;
-    background-color: #77dda3;
+    background-color: #77dda3e3;
 }
 #why-right{
     float: right;
-    background-color: #e47979;
+    background-color: #e6acace3;
 
 }
 #why-center{
     margin:0 auto;
-    background-color: #dddddd;
+    background-color: #dddddde3;
     border: 1px solid whitesmoke;
 }
 .why-box h2, .info-box h2{
@@ -220,17 +220,17 @@ header {
 
 #why-left:hover{
     float: left;
-    background-color: #aee0c3;
+    background-color: #77dda3;
     transition: 1s;
 }
 #why-right:hover{
     float: right;
-    background-color: #bd9d9d;
+    background-color: #e6acac;
     transition: 1s;
 }
 #why-center:hover{
     margin:0 auto;
-    background-color: #ffffff;
+    background-color: #dddddd;
     color: #3a3a3a;
     transition: 1s;
 }
