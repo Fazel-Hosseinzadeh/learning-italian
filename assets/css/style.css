@@ -125,7 +125,7 @@ header {
     width: 100%;
     
     /* animate */
-    animation: pulse 2s forwards;
+    animation: zoomin 7s forwards;
 }
     
   /* cover text styling */
