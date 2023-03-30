@@ -393,12 +393,10 @@ margin-top: 2rem;
 }
 
 /* courses and prices styling */
-
 #courses-heading{
     padding: 1rem 2rem;
     margin: 2rem;
     border: 1px solid whitesmoke;
-    background-color: #1b371e;
     border-radius: 1rem;
     line-height: 4rem;
     font-size: 1.5rem;
@@ -408,7 +406,6 @@ margin-top: 2rem;
     font-size: 250%;
     font-family: 'Satisfy', sans-serif;
 }
-
 
 #course-wrapper{
  width: 100%;
@@ -421,9 +418,10 @@ margin-top: 2rem;
     overflow: hidden;
     margin:0 2rem 2rem 0 ; /* top margin causes unalignment */
     padding: 1rem 2rem;
-    border: 1px solid whitesmoke;
+    border: 1px solid #606060;
     border-radius: 1rem;
-    background-color: #541621;
+    background-color: #e0e0e0;
+    color: #3a3a3a;
 }
 
 .img-course-box{
@@ -439,7 +437,7 @@ margin-top: 2rem;
     padding: 1rem 2rem;
     margin: 1rem 0;
 
-    border: 0.2rem solid yellowgreen;
+    border: 0.2rem solid #3a3a3a;
     border-radius: 1rem;
     border-style: inset;
 }
@@ -453,13 +451,11 @@ margin-top: 2rem;
 .course-box:hover{
     border: 1px solid rgb(200, 54, 54);
     border-radius: 1rem;
-    background-color: #681928;
-    color:#whitesmoke;
-    border-radius: 1.5rem;
+    background-color: #c5c3c5;
+    border-radius: 1.2rem;
     border-style: outset;
 }
 
 .course-box h2:hover{
-    border-radius: 3rem;
     border-style: outset;
 }
