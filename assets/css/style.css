@@ -400,10 +400,7 @@ footer{
 
 .course-box summary:hover{
     
-    background-color: #37495b;
-
-    /* animate */
-    animation: pulse 0.5s forwards;
+    background-color: #505962;
 }
 
 #go-register{
