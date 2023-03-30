@@ -314,73 +314,6 @@ footer{
     font-size: larger;
 }
 
-/* Form styling */
-#register-content-container{
-    clear: left;
-    background: url('../images/hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-
-    padding-top: 10rem;
-}
-#registration-section{
-    margin:1rem auto;
-    width: 25rem;
-    height: auto;
-    background-color: hsla(163, 61%, 44%, 0.9);
-    color:#2d4165;
-
-    border: 1px solid black;
-    border-radius: 1.5rem;
-}
-
-#registration-form{
-    padding: 1rem 2rem;
-    margin: auto 0;
-}
-fieldset legend{
-margin-top: 2rem;
-}
-#registration-section legend{
-    padding-top: 1rem;
-    padding-left: 3rem;
-}
-
-#registration-form label{
-    display: block;
-    padding-left: 1rem;
-}
-.input{
-    background-color: transparent;
-    width: 80%;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-    padding-left: 1rem;
-    height: 1.5rem;
-    border:0.1px solid #38349c;
-    border-radius: 0.5rem;
-}
-#course-level option{
-    line-height: 375%;
-}
-
-#registration-form #radio-wrapper label{
-    margin-left: 1rem;
-    display: inline;
-}
-
-#registration-form input[type=submit]{
-    margin: 1rem 3rem;
-    padding: 0 1rem;
-    line-height: 175%;
-}
-
-.input:hover, #radio-wrapper label:hover{
-    color: #d03333;
-    border:1px solid #c5d8da;
-}
-
 /* courses and prices styling */
 #courses-heading{
     padding: 1rem 2rem;
@@ -449,6 +382,74 @@ margin-top: 2rem;
     border-style: outset;
 }
 
+/* Form styling */
+#register-content-container{
+    clear: left;
+    background: url('../images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+
+    padding-top: 10rem;
+}
+#registration-section{
+    margin:1rem auto;
+    width: 25rem;
+    height: auto;
+
+    background-color: hsla(163, 61%, 44%, 0.9);
+    color:#3a3a3a;
+    font-weight: 700;
+
+    border: 1px solid black;
+    border-radius: 1.5rem;
+}
+
+#registration-form{
+    padding: 1rem 2rem;
+    margin: auto 0;
+}
+fieldset legend{
+margin-top: 2rem;
+padding-top: 1rem;
+padding-left: 3rem;
+}
+
+#registration-form label{
+    display: block;
+    padding-left: 1rem;
+    margin-bottom: 0.2rem;
+}
+.input{
+    width: 80%;
+    margin:5px 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    height: 1.5rem;
+    border:1px solid #38349c;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+#course-level option{
+    line-height: 375%;
+}
+
+#registration-form #radio-wrapper label{
+    margin-left: 1rem;
+    display: inline;
+}
+
+#registration-form input[type=submit]{
+    margin: 1rem 3rem;
+    padding: 0 1rem;
+    line-height: 175%;
+}
+
+.input:hover, #radio-wrapper label:hover{
+    color: #d03333;
+    border:1px solid #c5d8da;
+}
+
 /* hero image animation definition */
 @keyframes zoomin {
     from {
@@ -458,3 +459,4 @@ margin-top: 2rem;
         transform: scale(1.2);
     }
 }
+
