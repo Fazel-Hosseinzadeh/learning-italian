@@ -328,14 +328,14 @@ footer{
     margin: 2rem;
     line-height: 4rem;
     font-size: 1.5rem;
-
-    /* animate */
-    animation: pulse 2s forwards;
 }
 #courses-heading h2{
     text-align: center;
     font-size: 250%;
     font-family: 'Satisfy', sans-serif;
+
+    /* animate */
+    animation: pulse 2s forwards;
 }
 
 #course-wrapper{
