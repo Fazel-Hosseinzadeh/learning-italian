@@ -76,8 +76,8 @@ header {
 }
 
 .register{
-    background-color: #915454;
-    color: #bfc4c8;
+    background-color: #e95252;
+    color: #e4dddd;
     font-weight: 700;
     padding: 0px 15px ;
     border:1px solid white;
@@ -98,8 +98,8 @@ header {
 
 /* for wining "#menu li:hover" rule it is neccessary to re-define "#menu .register:hover" */
 #menu .register:hover, .register:hover{
-    color: whitesmoke;
-    background-color: #801358;
+    color: #ffffff;
+    background-color: #bb312a;
     transition: 0.6s;
     border: 1px solid whitesmoke;
 
