@@ -382,6 +382,18 @@ footer{
     border-style: outset;
 }
 
+#go-register{
+    background-color: whitesmoke;
+    float: none;
+    width: 100%;
+    color: #3a3a3a;
+    padding: 1rem ;
+}
+
+#go-register a{
+    width: 25rem;
+}
+
 /* Form styling */
 #register-content-container{
     clear: left;
