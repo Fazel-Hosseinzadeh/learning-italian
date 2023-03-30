@@ -340,6 +340,7 @@ footer{
     margin: 2rem;
     line-height: 4rem;
     font-size: 1.5rem;
+    color:#cccccc
 }
 #courses-heading h2{
     text-align: center;
@@ -358,10 +359,9 @@ footer{
     overflow: hidden;
     margin:0 2rem 2rem 0 ; /* top margin causes unalignment */
     padding: 1rem 2rem;
-    border: 1px solid #606060;
-    border-radius: 1rem;
-    background-color: #e0e0e0;
-    color: #3a3a3a;
+    background-color: #195a5c;
+    color: #cccccc;
+    border-radius: 1.2rem;
 }
 
 .img-course-box{
@@ -387,23 +387,20 @@ footer{
 
 .course-box summary{
     font-size: 1.5rem;
-    border:1px solid #3a3a3a;
+    border: 1px solid black;
     border-radius: 0.7rem;
     padding: 0.5rem 1rem;
 }
 
 .course-box:hover{
-    border: 1px solid rgb(200, 54, 54);
-    border-radius: 1rem;
-    background-color: #c5c3c5;
-    border-radius: 1.2rem;
-    border-style: outset;
+    background-color: #4b5050;
     transition: 0.7s;
+    color:#eeeeee;
 }
 
 .course-box summary:hover{
     
-    background-color: #d1becf;
+    background-color: #37495b;
 
     /* animate */
     animation: pulse 0.5s forwards;
@@ -430,7 +427,6 @@ footer{
     background-size: cover;
     background-position: center;
     height: 900px;
-
     padding-top: 10rem;
 }
 #registration-section{
