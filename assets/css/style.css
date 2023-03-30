@@ -199,7 +199,7 @@ header {
 }
 #why-center{
     margin:0 auto;
-    background-color: #d8e5e7;
+    background-color: #dddddd;
     color: #3a3a3a;
     border: 1px solid whitesmoke;
 }
@@ -211,17 +211,17 @@ header {
 
 #why-left:hover{
     float: left;
-    background-color: #3d8536;
+    background-color: #2a5c25;
     transition: 1s;
 }
 #why-right:hover{
     float: right;
-    background-color: #a06359;
+    background-color: #712a1f;
     transition: 1s;
 }
 #why-center:hover{
     margin:0 auto;
-    background-color: hsl(61, 69%, 86%);
+    background-color: #ffffff;
     color: #3a3a3a;
     transition: 1s;
 }
