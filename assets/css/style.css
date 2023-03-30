@@ -104,9 +104,6 @@ header {
 #menu li:hover,#logo :hover{
     color: #7ad27d;
     transition: 0.6s;
-
-/* animate */
-animation: zoomin 1.2s forwards;
 }
 #logo-space:hover{
     background-color: #7ad27d;
@@ -382,6 +379,13 @@ footer{
     font-size: 1.2rem;
 }
 
+.course-box summary{
+    font-size: 1.5rem;
+    border:1px solid #3a3a3a;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1rem;
+}
+
 .course-box:hover{
     border: 1px solid rgb(200, 54, 54);
     border-radius: 1rem;
@@ -394,6 +398,15 @@ footer{
 .course-box h2:hover{
     border-style: outset;
     transition: 0.6s;
+}
+
+.course-box summary:hover{
+    border:1px solid whitesmoke;
+    border-radius: 0.7rem;
+    background-color: #939393;
+
+    /* animate */
+    animation: pulse 1s forwards;
 }
 
 #go-register{
