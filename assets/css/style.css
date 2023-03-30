@@ -339,9 +339,6 @@ footer{
     text-align: center;
     font-size: 250%;
     font-family: 'Satisfy', sans-serif;
-
-    /* animate */
-    animation: pulse 2s forwards;
 }
 
 #course-wrapper{
