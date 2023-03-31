@@ -664,6 +664,13 @@ padding-left: 3rem;
     .register{
         font-size: 1.3rem;
     }
+
+    /* cover text styling */
+    #cover-text{
+    font-size: 120%;
+    padding: 0.5rem;
+    left: 15%;
+  }
 }
     
 
