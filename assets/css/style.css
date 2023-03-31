@@ -577,5 +577,28 @@ padding-left: 3rem;
         margin: 1rem 0;
     }
     
+    /* courses and prices styling */
+
+    #courses-heading{
+        display:inline-block;
+    }
+    
+    #course-wrapper{
+     width: 100%;
+     column-count: 2;
+     column-gap: 0.5rem;
+     margin: 0.5rem 0;
+    }
+    .course-box{
+        margin:0 0.5rem 0.5rem 0 ; /* top margin causes unalignment */
+        padding: 1rem;
+    }
+    
+    
+    }
+    
+
+    
+    
     
 }
