@@ -763,6 +763,36 @@ padding-left: 3rem;
 /* medai query for Small Mobile */
 @media screen and (max-width :375px){
 
+          /* logo styling */
+          #logo-wrapper{
+            margin-left: 1px ;
+            margin-top: 1px;
+            padding: 15px 3px;
+            }
+            #logo h1 span{
+            margin-bottom: 1px;
+            margin-left: 1px;
+            line-height: 1rem;
+            font-size: 0.8rem;
+            }
+        
+            /* menu styling */
+            #menu ul{
+                float: right;
+                font-size: 1rem;
+            }
+        
+            #menu li{
+                display: block;
+                line-height: 1rem;
+                margin-bottom: 15px;
+                padding: 0;
+            }
+        
+            .register{
+                font-size: 1rem;
+            }
+    
 
 }
 
