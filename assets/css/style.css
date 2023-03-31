@@ -31,6 +31,8 @@ header {
 #logo-wrapper{
     float: left;
     margin-left: 1rem ;
+    margin-top: 1rem;
+    line-height: 2rem;
 }
 #logo{
     font-size: large;
@@ -64,10 +66,12 @@ header {
 /* menu styling */
 #menu-wrapper{
     margin-right: 1rem;
+    
 }
 #menu{
     letter-spacing: 2px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    
 }
 #menu ul{
     float: right;
@@ -541,14 +545,15 @@ padding-left: 3rem;
 /* medai query for Tablet */
 @media screen and (max-width :1050px){
 
-    
+   
 
-/* ==============================================================/*
+
+
+
+
+
+
       /* cover text styling */
-  hr{
-    border-bottom: 1px solid whitesmoke ;
-  }
-
   #cover-text{
     font-size: 90%;
     padding: 1rem;
@@ -582,7 +587,7 @@ padding-left: 3rem;
         float: unset;
         margin: 1rem 0;
     }
-    
+
     /* courses and prices styling */
 
     #courses-heading{
