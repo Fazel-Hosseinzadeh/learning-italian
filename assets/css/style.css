@@ -138,14 +138,15 @@ header {
     width: 100%;
     display: block;
     overflow: hidden;
-    position: relative;
+    position: relative;  /* because cover text possision is absolute */
 } 
 
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
     aspect-ratio: 2/1;
+    width: 100%;
     /* animate */
-    animation: zoomin 7s forwards;
+    animation: zoomin 4s forwards;
 }
     
   /* cover text styling */
@@ -346,6 +347,10 @@ footer{
 }
 
 /* courses and prices styling */
+#course-section{
+background-color: #2f2a7c;
+}
+
 #courses-heading{
     padding: 1rem 2rem;
     margin: 2rem;
