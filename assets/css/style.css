@@ -681,6 +681,32 @@ padding-left: 3rem;
         font-size: 2rem;
     }
 
+    /* Footer styling */
+
+    .social-media{
+        float: left;
+        width: 100%;
+    }
+
+    .social-media li{
+        display: inline;
+        list-style-type: circle;
+    }
+    .social-media i{
+        font-size: 300%;
+        margin: 0.5rem;
+    }
+
+    .contact{
+        clear: left;
+        float: left;
+        width: 100%;
+        padding: 0 4rem;
+    }
+
+    .contact caption{
+        text-align:center;
+    }
 }
     
 
