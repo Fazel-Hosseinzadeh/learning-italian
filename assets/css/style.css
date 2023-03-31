@@ -572,16 +572,18 @@ padding-left: 3rem;
     }
     /* logo styling */
     #logo-wrapper{
+    clear: both;
     margin-left: 2rem ;
     margin-top: 0.5rem;
     }
 
     /* menu styling */
-    #menu{
+    #menu ul{
         clear: left;
         float: left;
         letter-spacing: 1px;
         font-size: 1.3rem;
+        margin-left: 2%;
     }
 
     #menu li{
@@ -663,7 +665,7 @@ padding-left: 3rem;
 }
 
 /* medai query for Mobile */
-@media screen and (max-width :900px){
+@media screen and (max-width :900%){
 
     header{
         height: 25vh;
