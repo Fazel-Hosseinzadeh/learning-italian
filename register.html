@@ -35,16 +35,16 @@
                 <div id="registration-form">
                     <form action="https://formdump.codeinstitute.net/" method="POST">
         
-                    <label for="fname">First Name</label>
-                    <input id="fname" class="input" name="first_name" type="text" required>
+                    <label for="fname">First Name *</label>
+                    <input id="fname" class="input" name="first_name" type="text" required placeholder="Your First Name">
                     
-                    <label for="lname">Last Name</label>
-                    <input id="lname" class="input" name="last_name" type="text" required>
+                    <label for="lname">Last Name *</label>
+                    <input id="lname" class="input" name="last_name" type="text" required required placeholder="Your Lirst Name">
                     
-                    <label for="email">Email Address</label>
-                    <input id="email" class="input" name="email_address" type="email"  required>
+                    <label for="email">Email Address *</label>
+                    <input id="email" class="input" name="email_address" type="email" required placeholder="Your Email Address" required>
         
-                    <label for="course">Please choose the course:</label>
+                    <label for="course">Please choose the course *</label>
                     <select name="course-level" id="course" class="input" required>
                         <option value="" >Select the Level</option>
                         <option value="a1" >Italian course A1 Level</option>
@@ -55,10 +55,10 @@
                         <option value="c2">Italian course C2 Level</option>
                     </select>
                         
-                        <label for="start-date">When you can start:</label>
+                        <label for="start-date">When you can start *</label>
                         <input id="start-date" class="input" name="start-date" type="date" required>
         
-                        <label>Please choose the course type:</label>
+                        <label>Please choose the course type *</label>
                         <div id="radio-wrapper">
                         <label for="group">Group</label>
                         <input type="radio" id="group" name="course-type" value="group" required>
