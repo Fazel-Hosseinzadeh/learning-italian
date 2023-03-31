@@ -628,6 +628,14 @@ padding-left: 3rem;
         margin: 1rem 0;
     }
 
+        /* courses and prices styling */
+
+        #course-wrapper{
+            column-count: 1;
+            }
+            .course-box{
+                font-size: 2rem;
+            }
         /* Footer styling */
 
         .social-media{
@@ -694,15 +702,6 @@ padding-left: 3rem;
     padding: 0.5rem;
     left: 15%;
   }
-
-    /* courses and prices styling */
-
-    #course-wrapper{
-    column-count: 1;
-    }
-    .course-box{
-        font-size: 2rem;
-    }
 
     /* Footer styling */
 
