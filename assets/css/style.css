@@ -535,3 +535,19 @@ padding-left: 3rem;
     }
 }
 
+/* medai query for tablet */
+@media screen and (max-width :1050px){
+
+    /* why-box becomes horizontal  */
+    #course-overview-wrapper, #info-wrapper{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: block;
+    }
+
+    .why-box{
+        width: 100%;
+    }
+
+
+}
