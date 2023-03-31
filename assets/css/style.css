@@ -628,6 +628,30 @@ padding-left: 3rem;
         margin:0 0.5rem 0.5rem 0 ; /* top margin causes unalignment */
         padding: 1rem;
     }
+
+        /* Footer styling */
+
+        .social-media{
+            float: left;
+            width: 50%;
+        }
+    
+        .social-media li{
+            display: inline;
+            list-style-type: circle;
+        }
+        .social-media i{
+            font-size: 250%;
+            margin: 0.3rem;
+        }
+    
+        .contact{
+            width: 50%;
+        }
+    
+        .contact caption{
+        text-align:center;
+        }
     
 }
 
