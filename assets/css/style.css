@@ -13,6 +13,7 @@ body{
     font-family: Popinns, sans-serif;
     background-color: #251d17;
     color: #e1d5d5;
+    width: 100%;
     min-height: 100vh;
     max-width: 2200px;
     margin-left: auto;
@@ -26,14 +27,17 @@ header {
     border-radius: 20%;
 }
 /* logo styling */
-#logo{
+#logo-wrapper{
     float: left;
+    margin-left: 1rem   ;
+}
+#logo{
     font-size: large;
     text-decoration: none;
+    font-family: 'Satisfy', sans-serif;
 }
 /* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
-    font-family: 'Satisfy', sans-serif;
     color: #effbfb;
     letter-spacing: 3px;
     background-color: #52b17b;
@@ -45,14 +49,13 @@ header {
 #logo-space{
     letter-spacing: 3px;
     background-color: #bbbbbb;
-    padding-bottom: 0.2em;
+
 
     border: 1px solid #bbbbbb;
     border-radius: 0.5rem;
 }
 
 #logo-italian{
-    font-family: 'Satisfy', sans-serif;
     color: #dcdcdc;
     font-style: italic;
     background-color: #ca4f4f;
@@ -535,9 +538,12 @@ padding-left: 3rem;
     }
 }
 
-/* medai query for tablet */
+/* medai query for Tablet */
 @media screen and (max-width :1050px){
 
+    
+
+/* ==============================================================/*
       /* cover text styling */
   hr{
     border-bottom: 1px solid whitesmoke ;
