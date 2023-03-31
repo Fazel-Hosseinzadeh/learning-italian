@@ -438,7 +438,7 @@ footer{
     background: url('../images/hero-image.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    aspect-ratio: 16/9;
     padding-top: 10rem;
 }
 #registration-section{
