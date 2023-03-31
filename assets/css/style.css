@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patua+One&family=Poppins&family=Satisfy&display=swap');
 
+
+
 /* reseting to zero margins paddings and borders from all the elements*/
    *{ 
     margin: 0;
@@ -54,7 +56,7 @@ header {
     color: #dcdcdc;
     font-style: italic;
     background-color: #ca4f4f;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 
     border: 1px solid #ca4f4f;
     border-radius: 0.5rem;
