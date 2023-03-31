@@ -35,22 +35,18 @@ header {
     font-size: large;
     text-decoration: none;
     font-family: 'Satisfy', sans-serif;
+    letter-spacing: 3px;
 }
 /* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
     color: #effbfb;
-    letter-spacing: 3px;
     background-color: #52b17b;
-
     border: 1px solid #52b17b;
     border-radius: 0.5rem;
 }
 
 #logo-space{
-    letter-spacing: 3px;
     background-color: #bbbbbb;
-
-
     border: 1px solid #bbbbbb;
     border-radius: 0.5rem;
 }
@@ -59,8 +55,6 @@ header {
     color: #dcdcdc;
     font-style: italic;
     background-color: #ca4f4f;
-    letter-spacing: 3px;
-
     border: 1px solid #ca4f4f;
     border-radius: 0.5rem;
     
