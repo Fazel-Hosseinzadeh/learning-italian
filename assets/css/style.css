@@ -143,9 +143,7 @@ header {
 
 #hero-iamge-container{
     background: url('../images/hero-image.jpg') no-repeat center center;
-    height: 500px;
-    width: 100%;
-    
+    aspect-ratio: 2/1;
     /* animate */
     animation: zoomin 7s forwards;
 }
