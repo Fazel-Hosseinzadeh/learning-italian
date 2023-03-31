@@ -754,7 +754,12 @@ padding-left: 3rem;
         text-align:center;
     }
 }
-    
+
+/* medai query for Small Mobile */
+@media screen and (max-width :375px){
+
+
+}
 
     
     
