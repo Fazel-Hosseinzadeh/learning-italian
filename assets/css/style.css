@@ -549,5 +549,8 @@ padding-left: 3rem;
         width: 100%;
     }
 
+    #info-right, #info-left{
+        width: 100%;
+    }
 
 }
