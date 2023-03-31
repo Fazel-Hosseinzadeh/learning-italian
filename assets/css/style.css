@@ -674,24 +674,40 @@ padding-left: 3rem;
 @media screen and (max-width :550px){
 
     header{
-        height: 35vh;
-    }
-    /* logo styling */
-    #menu{
-        float: right;
-        letter-spacing: 1px;
-        font-size: 0.8rem;
-    }
-
-    #menu li{
+        height: 45vh;
+        }
+        /* logo styling */
+        #logo-wrapper{
+        margin-left: 0.5rem ;
+        margin-top: 0.5rem;
+        padding: 0.8rem;
+        }
+        #logo h1 span{
         display: block;
-        list-style-type: none;
-        margin-right: 1rem;
-    }
-
-    .register{
-        font-size: 1rem;
-    }
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+        line-height: 2rem;
+        font-size: 2rem;
+        }
+    
+        /* menu styling */
+        #menu ul{
+            float: right;
+            letter-spacing: 0;
+            font-size: 1rem;
+            margin: 0;
+        }
+    
+        #menu li{
+            display: block;
+            line-height: 3rem;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .register{
+            font-size: 1rem;
+        }
 
     /* cover text styling */
     #cover-text{
