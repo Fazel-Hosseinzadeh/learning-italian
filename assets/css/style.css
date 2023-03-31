@@ -753,6 +753,11 @@ padding-left: 3rem;
     .contact caption{
         text-align:center;
     }
+
+    #go-register a{
+        width: auto;
+    }
+
 }
 
 /* medai query for Small Mobile */
