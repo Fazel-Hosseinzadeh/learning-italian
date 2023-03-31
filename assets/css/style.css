@@ -542,6 +542,28 @@ padding-left: 3rem;
     }
 }
 
+
+/* medai query for smal laptob */
+@media screen and (max-width :1400px){
+    /* courses and prices styling */
+    #courses-heading{
+        display:inline-block;
+    }
+    
+    #course-wrapper{
+     width: 100%;
+     column-count: 2;
+     column-gap: 0.5rem;
+     margin: 0.5rem 0;
+    }
+    .course-box{
+        margin:0 0.5rem 0.5rem 0 ; /* top margin causes unalignment */
+        padding: 1rem;
+    }
+
+}
+
+
 /* medai query for Tablet */
 @media screen and (max-width :1050px){
 
@@ -606,23 +628,6 @@ padding-left: 3rem;
         margin: 1rem 0;
     }
 
-    /* courses and prices styling */
-
-    #courses-heading{
-        display:inline-block;
-    }
-    
-    #course-wrapper{
-     width: 100%;
-     column-count: 2;
-     column-gap: 0.5rem;
-     margin: 0.5rem 0;
-    }
-    .course-box{
-        margin:0 0.5rem 0.5rem 0 ; /* top margin causes unalignment */
-        padding: 1rem;
-    }
-
         /* Footer styling */
 
         .social-media{
@@ -650,7 +655,7 @@ padding-left: 3rem;
 }
 
 /* medai query for Mobile */
-@media screen and (max-width :725px){
+@media screen and (max-width :900px){
 
     header{
         height: 25vh;
