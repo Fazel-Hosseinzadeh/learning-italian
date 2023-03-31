@@ -711,9 +711,14 @@ padding-left: 3rem;
 
     /* cover text styling */
     #cover-text{
-    font-size: 120%;
-    padding: 0.5rem;
-    left: 15%;
+    font-size: 0.2rem%;
+    padding: 0;
+    left: 5%;
+  }
+
+  #hero-iamge-container{
+    height: 500px;
+    width: 100%;
   }
 
     /* Footer styling */
