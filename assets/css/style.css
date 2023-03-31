@@ -600,6 +600,11 @@ padding-left: 3rem;
         font-size: 1.3rem;
     }
 
+#hero-iamge-container{
+    height: 500px;
+    width: 100%;
+    }
+    
     /* cover text styling */
   #cover-text{
     font-size: 90%;
@@ -714,11 +719,6 @@ padding-left: 3rem;
     font-size: 0.2rem%;
     padding: 0;
     left: 5%;
-  }
-
-  #hero-iamge-container{
-    height: 500px;
-    width: 100%;
   }
 
     /* Footer styling */
