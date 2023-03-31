@@ -545,15 +545,39 @@ padding-left: 3rem;
 /* medai query for Tablet */
 @media screen and (max-width :1050px){
 
-   
+    header{
+        height: 25vh;
+    }
+    /* logo styling */
+    #logo-wrapper{
+    clear: both;
+    margin-left: 1rem ;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    }
+
+    /* menu styling */
+    #menu-wrapper{
+        margin-right: 0;
+        
+    }
+    #menu{
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+    }
 
 
+    #menu li{
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 1rem;
+    }
 
+    .register{
+        font-size: 1rem;
+    }
 
-
-
-
-      /* cover text styling */
+    /* cover text styling */
   #cover-text{
     font-size: 90%;
     padding: 1rem;
@@ -573,6 +597,7 @@ padding-left: 3rem;
         border-radius: 1rem;
         width: 100%;
     }
+    
     #course-overview #why-left, #why-center.why-box, #why-right.why-box{
         float: unset;
         margin-top: 1rem;
@@ -605,11 +630,9 @@ padding-left: 3rem;
         padding: 1rem;
     }
     
-    
-    }
+}
     
 
     
     
     
-}
