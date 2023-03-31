@@ -29,36 +29,36 @@ header {
 /* logo styling */
 #logo-wrapper{
     float: left;
-    margin-left: 1rem   ;
+    margin-left: 1rem ;
 }
 #logo{
     font-size: large;
     text-decoration: none;
+    letter-spacing: 2px;
     font-family: 'Satisfy', sans-serif;
-    letter-spacing: 3px;
 }
 /* The Logo formed by three span wit ids "Learn" "7*space" "Italian" */
 #logo-learn{
     color: #effbfb;
     background-color: #52b17b;
     border: 1px solid #52b17b;
-    border-radius: 0.5rem;
 }
 
 #logo-space{
     background-color: #bbbbbb;
     border: 1px solid #bbbbbb;
-    border-radius: 0.5rem;
 }
 
 #logo-italian{
-    color: #dcdcdc;
-    font-style: italic;
     background-color: #ca4f4f;
     border: 1px solid #ca4f4f;
-    border-radius: 0.5rem;
-    
 }
+
+#logo-learn, #logo-space, #logo-italian{
+    color: #effbfb;
+    border-radius: 0.5rem;
+}
+
 
 /* menu styling */
 #menu{
