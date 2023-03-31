@@ -23,6 +23,7 @@ body{
 header {
     height: 20vh;
     display: block;
+    overflow: hidden;
     border-bottom: 1px  solid whitesmoke;
     border-radius: 20%;
 }
@@ -61,16 +62,21 @@ header {
 
 
 /* menu styling */
+#menu-wrapper{
+    margin-right: 1rem;
+}
 #menu{
-    float: right;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+#menu ul{
+    float: right;
 }
 
 #menu li{
+    display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
-    float: left;
+    margin-right: 1rem;
 }
 
 .register{
@@ -81,7 +87,7 @@ header {
     border:1px solid white;
     border-radius: 1rem;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #menu a{
