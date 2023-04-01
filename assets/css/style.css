@@ -490,6 +490,7 @@ padding-left: 3rem;
     border:1px solid #38349c;
     border-radius: 0.5rem;
     font-size: 1.1rem;
+    background-color: #2fd3dff0;
 }
 
 #registration-form select{
