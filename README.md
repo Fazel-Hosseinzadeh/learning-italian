@@ -135,6 +135,28 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 5. [GitHub](https://github.com/):
 	- GitHub is used to store the projects code after being pushed from Git.
 
+## Testing
+
+### Validator Testing 
+-	The HTML and CSS codes were tested in the W3C HTML and W3C CSS validation services, and they were all found to have passed the tests.
+- [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+### Lighthouse Test
+![Google's web.dev page quality test](./documentation/lighthouse-all.jpg) The website underwent thorough evaluations using industry-standard tools to measure its performance, accessibility, SEO, and adherence to best practices. These evaluations were critical in ensuring that the website delivered a top-notch user experience and was compliant with industry standards. The results of these evaluations were analyzed and used to improve the website's functionality, efficiency, and overall user experience.
+		
+### Browser Compatibility
+-   Testing has been carried out on the following browsers :
+    -   Chrome Version 107.0.5304.87
+    -   Edge Version 107.0.1418.24
+    -   Firefox Version 94.0.1
+    -   Safari on macOS (Safari Version 15.6)
+    
+### Test Cases and Results
+
+-   The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
+
+![Test case and results table](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/testing.png?raw=true)
 
 
     
