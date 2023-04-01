@@ -554,7 +554,7 @@ padding-left: 3rem;
 
 
 /* medai query for smal laptob */
-@media screen and (max-width :1400px){
+@media screen and (max-width :1250px){
     /* courses and prices styling */
     #courses-heading{
         display:inline-block;
