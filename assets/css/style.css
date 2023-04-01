@@ -542,6 +542,15 @@ padding-left: 3rem;
     }
 }
 
+@keyframes zoomin-mq {
+    0% {
+    transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
 
 /* medai query for smal laptob */
 @media screen and (max-width :1400px){
@@ -643,14 +652,14 @@ padding-left: 3rem;
 
         /* courses and prices styling */
 
-        #course-wrapper{
-            column-count: 1;
-            }
-            .course-box{
-                font-size: 2rem;
-            }
-        /* Footer styling */
+    #course-wrapper{
+        column-count: 1;
+        }
+        .course-box{
+            font-size: 2rem;
+        }
 
+    /* Footer styling */
         .social-media{
             float: left;
             width: 50%;
@@ -676,7 +685,7 @@ padding-left: 3rem;
         .social-media i:hover{
 
             /* animate */
-                animation: zoomin 1s forwards;
+            animation: zoomin-mq 0.7s forwards;
         }
     
 }
