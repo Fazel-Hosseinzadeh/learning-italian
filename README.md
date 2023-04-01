@@ -147,16 +147,11 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 		
 ### Browser Compatibility
 -   Testing has been carried out on the following browsers :
-    -   Chrome Version 107.0.5304.87
-    -   Edge Version 107.0.1418.24
-    -   Firefox Version 94.0.1
-    -   Safari on macOS (Safari Version 15.6)
-    
-### Test Cases and Results
-
--   The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
-
-![Test case and results table](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/testing.png?raw=true)
+-   Safari on macOS (Version 16.3 )
+-   Edge Version Version 111.0.1661.62
+-   Firefox Version 111.0.1 (64-bit)
+-   Chrome Version Version 111.0.5563.147 
+   
 
 
     
