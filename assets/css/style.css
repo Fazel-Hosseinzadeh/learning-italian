@@ -467,8 +467,8 @@ background-color: #2f2a7c;
 }
 
 #registration-form{
-    padding: 1rem 2rem;
-    margin: auto 0;
+    padding: 1rem;
+    margin: auto 2px;
 }
 fieldset legend{
 margin-top: 2rem;
