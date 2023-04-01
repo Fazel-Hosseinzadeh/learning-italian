@@ -6,7 +6,16 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 ![Responsive Mockup](./documentation/amiresponsive.jpg)
 
-## User experience (UX)
+#	Content Index
+
+##	[User-experience-Ux](#User-experience-UX)
+##	[Features](#Features)
+##	[Used-Technologies](#Used-Technologies)
+##	[Testing](#Testing)
+##	[Deployment](#Deployment)
+##	[Credits](#Credits)
+
+## User-experience-(UX)
 
 - ### Users:
 
@@ -155,14 +164,14 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 ## Deployment
 
 
-### Adding and Committing files
+### Adding and Committing 
 
-To add files to the repository take the following steps
-
-In the command line type - git add .  
-git commit -m "This is being committed" git push
-
-To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
+-	Command for adding all the files (StaginG):
+	git add .
+- Command for sending the commitment within a message:
+	git commit -m "your message here"
+- Command for pushing to your repository(github):
+	git push
 
 ### Deployment
 
