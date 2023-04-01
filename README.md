@@ -111,6 +111,30 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 ###     Footer view in Mobile
 ![Footer view in Mobile](./documentation/footer-mobile.jpg)
 
+##  Used Technologies
+
+### Languages 
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Hover.css](https://ianlunn.github.io/Hover/):
+	- CSS hover is a simple but effective technique for improving the user experience, making it easier for users to interact with the website and reducing confusion or frustration. The technique is widely supported across modern browsers and devices, ensuring a consistent experience for all users.
+
+2. [Google Fonts](https://fonts.google.com/):
+	- To ensure a visually appealing and consistent design, the project uses Google fonts, specifically 'Popinns', which were imported into the style.css file. This font was chosen for its  modern feel, and it is used throughout the project to provide a cohesive and professional look. By utilizing a web font, the project is able to provide a consistent experience across all devices and platforms, while also adding a touch of personality and character to the overall design. Font 'Satisfy' is used to make the logo.
+
+3. [Font Awesome](https://fontawesome.com/):
+	- Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+
+4. [Git](https://git-scm.com/):
+	- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+5. [GitHub](https://github.com/):
+	- GitHub is used to store the projects code after being pushed from Git.
+
 
 
     
