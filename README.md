@@ -6,15 +6,6 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 ![Responsive Mockup](./documentation/amiresponsive.jpg)
 
-#	Content Index
-
-##	[User-experience-Ux](#User-experience-UX)
-##	[Features](#Features)
-##	[Used-Technologies](#Used-Technologies)
-##	[Testing](#Testing)
-##	[Deployment](#Deployment)
-##	[Credits](#Credits)
-
 ## User-experience-(UX)
 
 - ### Users:
