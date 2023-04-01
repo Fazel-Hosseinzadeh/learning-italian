@@ -12,25 +12,25 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 	- #### First Time Visitor 
 
-	        1. I want to be able to comprehend the primary purpose of the website and learn about the organization easily.
+	    1. I want to be able to comprehend the primary purpose of the website and learn about the organization easily.
 
-                2. I want to be able to navigate through the website quickly to locate the content I am looking for.
+        2. I want to be able to navigate through the website quickly to locate the content I am looking for.
 
-                3. I want to be able to read testimonials from previous customers to establish their credibility and trustworthiness.
+        3. I want to be able to read testimonials from previous customers to establish their credibility and trustworthiness.
 
 	-  #### Returning Visitor 
 
 		1. I want to be able to access the company's services quickly and effortlessly as a returning visitor.
 
-		b. I want to be able to contact the business to request services or seek information as a returning visitor.
+		2. I want to be able to contact the business to request services or seek information as a returning visitor.
 
 	-  #### Frequent User Goals
 
 		1. I want to be able to view the company's newly added work samples regularly as a frequent user.
 
-                2. I want to be able to check out the company's new services as a frequent user.
+        2. I want to be able to check out the company's new services as a frequent user.
 
-                3. I want to be able to contact the business to request services, ask questions, follow up on previous conversations, or leave feedback as a frequent user.
+        3. I want to be able to contact the business to request services, ask questions, follow up on previous conversations, or leave feedback as a frequent user.
 
 - ### Design
 
@@ -53,9 +53,9 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 	- The navigation bar on the website contains the following items:
 
-        -        Home
-        -        Courses and Prices
-        -        Registration
+        -    **Home**
+        -    **Courses and Prices**
+        -    **Registration**
 
         The "Registration" item is a red button with light-colored text to make it more eye-catching. The logo on the navigation bar is the Italian flag, which also contains the name of the website. On smaller devices, the navigation bar will turn to a vertical orientation for better usability.Each navigation link in the menu bar is accompanied by a corresponding icon that is related to its content.
 ### Laptop view of Navigationbar    
