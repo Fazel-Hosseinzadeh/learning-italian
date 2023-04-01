@@ -12,25 +12,25 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 	- #### First Time Visitor 
 
-	    1. I want to be able to comprehend the primary purpose of the website and learn about the organization easily.
+	    - I want to be able to comprehend the primary purpose of the website and learn about the organization easily.
 
-        2. I want to be able to navigate through the website quickly to locate the content I am looking for.
+        - I want to be able to navigate through the website quickly to locate the content I am looking for.
 
-        3. I want to be able to read testimonials from previous customers to establish their credibility and trustworthiness.
+        - I want to be able to read testimonials from previous customers to establish their credibility and trustworthiness.
 
 	-  #### Returning Visitor 
 
-		1. I want to be able to access the company's services quickly and effortlessly as a returning visitor.
+		- I want to be able to access the company's services quickly and effortlessly as a returning visitor.
 
-		2. I want to be able to contact the business to request services or seek information as a returning visitor.
+		- I want to be able to contact the business to request services or seek information as a returning visitor.
 
-	-  #### Frequent User Goals
+	-  #### Frequent User
 
-		1. I want to be able to view the company's newly added work samples regularly as a frequent user.
+		- I want to be able to view the company's newly added work samples regularly as a frequent user.
 
-        2. I want to be able to check out the company's new services as a frequent user.
+        - I want to be able to check out the company's new services as a frequent user.
 
-        3. I want to be able to contact the business to request services, ask questions, follow up on previous conversations, or leave feedback as a frequent user.
+        - I want to be able to contact the business to request services, ask questions, follow up on previous conversations, or leave feedback as a frequent user.
 
 - ### Design
 
@@ -73,9 +73,9 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 ![narrow screen view of hero image ](./documentation/hero-imagege-narrow.jpg)
 
 -   **Ethos Section**
-	-       The Ethos section of the website is designed to showcase the values and philosophy behind the business. It outlines who can benefit from taking the courses and why they should choose to do so with us. The section also explains the advantages of taking the courses online, highlighting the flexibility and convenience it offers to learners.
+	-    The Ethos section of the website is designed to showcase the values and philosophy behind the business. It outlines who can benefit from taking the courses and why they should choose to do so with us. The section also explains the advantages of taking the courses online, highlighting the flexibility and convenience it offers to learners.
 
-        -       By taking these courses online, learners can benefit from the convenience of learning from anywhere, at any time. This means they can fit their learning around their busy lives, without compromising on the quality of their education. Our online courses are taught by experienced and qualified teachers who are passionate about helping learners to succeed.
+    -	By taking these courses online, learners can benefit from the convenience of learning from anywhere, at any time. This means they can fit their learning around their busy lives, without compromising on the quality of their education. Our online courses are taught by experienced and qualified teachers who are passionate about helping learners to succeed.
     ### Ethos Sectionn as viewed on laptop    
 ![Ethos Sectionn as viewed on laptop](./documentation/ethos-vjpg.jpg)
 
@@ -83,7 +83,7 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 ![Ethos Sectionn as viewed on laptop](./documentation/ethos-h.jpg)
 
 - **Courses and Prices**
-	-       The "Courses and Prices" section offers a comprehensive range of Italian language courses for all levels from A1 to C2. Each level has its own dedicated box, providing essential information on the level's content and the target audience. The boxes are designed with a responsive layout, allowing them to adapt to different screen sizes without compromising their readability. Additionally, the background color and text color of each box are carefully chosen to ensure a comfortable and pleasing user experience. The courses come in two options - private and group classes, and both options come with their respective prices clearly displayed, providing potential students with a transparent view of the costs associated with their chosen courses.
+	*	The "Courses and Prices" section offers a comprehensive range of Italian language courses for all levels from A1 to C2. Each level has its own dedicated box, providing essential information on the level's content and the target audience. The boxes are designed with a responsive layout, allowing them to adapt to different screen sizes without compromising their readability. Additionally, the background color and text color of each box are carefully chosen to ensure a comfortable and pleasing user experience. The courses come in two options - private and group classes, and both options come with their respective prices clearly displayed, providing potential students with a transparent view of the costs associated with their chosen courses.
 ###     Courses and Prices as viewed on laptop(3 Column)
 ![Courses and Prices as viewed on laptop](./documentation/courses-and-prices-3column.jpg)
 
@@ -120,19 +120,19 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Hover.css](https://ianlunn.github.io/Hover/):
+* [Hover.css](https://ianlunn.github.io/Hover/):
 	- CSS hover is a simple but effective technique for improving the user experience, making it easier for users to interact with the website and reducing confusion or frustration. The technique is widely supported across modern browsers and devices, ensuring a consistent experience for all users.
 
-2. [Google Fonts](https://fonts.google.com/):
+* [Google Fonts](https://fonts.google.com/):
 	- To ensure a visually appealing and consistent design, the project uses Google fonts, specifically 'Popinns', which were imported into the style.css file. This font was chosen for its  modern feel, and it is used throughout the project to provide a cohesive and professional look. By utilizing a web font, the project is able to provide a consistent experience across all devices and platforms, while also adding a touch of personality and character to the overall design. Font 'Satisfy' is used to make the logo.
 
-3. [Font Awesome](https://fontawesome.com/):
+* [Font Awesome](https://fontawesome.com/):
 	- Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
-4. [Git](https://git-scm.com/):
+* [Git](https://git-scm.com/):
 	- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-5. [GitHub](https://github.com/):
+* [GitHub](https://github.com/):
 	- GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
@@ -152,6 +152,64 @@ This website, Learn Italian, is aimed at students, working professionals, and tr
 -   Firefox Version 111.0.1 (64-bit)
 -   Chrome Version Version 111.0.5563.147 
    
+## Deployment
+
+
+### Adding and Committing files
+
+To add files to the repository take the following steps
+
+In the command line type - git add .  
+git commit -m "This is being committed" git push
+
+To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
+
+### Deployment
+
+For deploying the project:
+
+-   Logg into git hub
+-	got to project repository
+-   go to project setting (the setting above the project not in your avatar)
+-	Scroll down till finding "Pages" on the left side bar
+-   In the "pages" find "Source: Deploy from a branch" and the 		choose "Github Action".
+-   Wiat till the link for website is ready. It takes 4-5 minutes, after that refresh the page and find the link.
+
+### Forking (Copying)
+
+Forking the GitHub Repository means that you want to have a copy of this project in your own repository, so you can work on it without making any change on the original project. For doing so:
+
+-	Go to the repository you want to fork.
+-	Click on the "Fork" button at the top right corner of the page.
+-	Choose the account you want to fork the repository to.
+-	Wait for the repository to be copied to your account.
+-	Once the fork is complete, you can clone the repository to your local machine, make changes to it, and push those changes back to your forked repository.
+-	Finally, you can create a pull request to merge your changes back into the original repository if you want to contribute to the project.
+
+
+## Credits
+
+### Content
+
+The developer was creating and writing all of the content on the website.
+
+### Code
+
+-	[W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
+
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+
+### Media
+
+- [Fontawesome](https://fontawesome.com/)
+
+- [Google Fonts](https://fonts.google.com/)
+
+- [www.icons8.com](https://www.icons8.com/)
+-	[www.pexels.com](https://www.pexels.com/)
+
+
+
 
 
     
