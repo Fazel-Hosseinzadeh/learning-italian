@@ -757,6 +757,10 @@ padding-left: 3rem;
     #go-register a{
         width: auto;
     }
+/* Form styling */
+#register-content-container{
+background-image: none;
+}
 
 }
 
